@@ -22,6 +22,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Algorithms.py" />
+    <Compile Include="SortingAndSearching\merge_del.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SortingAndSearching\merge_sort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SortingAndSearching\quick_sort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SortingAndSearching\sorted_merge.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SortingAndSearching\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="TreesAndGraphs\binary_tree.py">
       <SubType>Code</SubType>
     </Compile>
@@ -36,6 +51,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="SortingAndSearching\" />
     <Folder Include="TreesAndGraphs\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
